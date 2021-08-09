@@ -1,7 +1,7 @@
 # Food Groups 🥕
-An app to help friends decide where to eat.
+An app to help friends decide where to eat, developed with Flutter.
 
-Users can either create or join sessions.
+Users can either create or join sessions, all managed on a Firebase realtime database.
 
 <p float="left">
   <img src="error-demo.gif" width="300"/>
@@ -14,6 +14,6 @@ The makes sure to check for errors.
 
 
 
-Currently, the app can initiate sessions through a shared code using Firebase. In the future, the app should pull from Google Places API to find nearby restaurants, and store user preferences in the Firebase database (there is still a bit of work to do...) 🙂
+Currently, the app can only manage sessions through a shared code. In the future, the app should pull from Google Places API to find nearby restaurants, and store user preferences in the Firebase database (there is still a bit of work to do...) 🙂
 
 Feel free to use what I made to integrate "sessions" into your own projects!
